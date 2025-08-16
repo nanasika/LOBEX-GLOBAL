@@ -116,6 +116,17 @@ backend:
         -working: "NA"
         -agent: "main"
         -comment: "Added interior decoration service to mock data with appropriate features, target market, and testimonial"
+  - task: "Backend API endpoints functionality"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        -working: true
+        -agent: "testing"
+        -comment: "Comprehensive backend testing completed. All 5 API endpoints tested successfully: GET /api/ (root), POST /api/status (create), GET /api/status (retrieve), CORS configuration, and MongoDB connectivity. All tests passed with proper response formatting and data persistence."
 
 frontend:
   - task: "Add interior decoration service to UI"
