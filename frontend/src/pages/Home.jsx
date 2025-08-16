@@ -16,7 +16,8 @@ import {
   Smartphone,
   Shirt,
   Wrench,
-  Scissors
+  Scissors,
+  Home
 } from 'lucide-react';
 
 const Home = () => {
