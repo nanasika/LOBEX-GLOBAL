@@ -162,6 +162,15 @@ export const mockData = {
       content: "The salon equipment package was perfect for our new location. Training and support made setup seamless.",
       rating: 5,
       image: null
+    },
+    {
+      id: 5,
+      name: "Sarah Johnson",
+      role: "Interior Designer",
+      company: "Elite Interiors",
+      content: "LOBEX provides exceptional furniture and decor pieces that transform our client spaces beautifully.",
+      rating: 5,
+      image: null
     }
   ],
 
