@@ -89,6 +89,11 @@ export const mockData = {
       target: "Salon Owners",
       benefits: ["Professional equipment", "Training provided", "Maintenance support", "Latest trends"],
       description: "Complete salon setup solutions with equipment, training, and ongoing support."
+    },
+    {
+      target: "Interior Designers",
+      benefits: ["Design variety", "Quality furniture", "Decor accessories", "Bulk pricing"],
+      description: "Complete interior decoration solutions from furniture to accessories with design consultation."
     }
   ],
 
