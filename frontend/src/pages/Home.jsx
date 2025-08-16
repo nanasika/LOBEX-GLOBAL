@@ -51,6 +51,12 @@ const Home = () => {
       title: 'Salon & Beauty Supplies',
       description: 'Professional beauty and salon equipment',
       color: 'bg-pink-50 text-pink-600'
+    },
+    {
+      icon: Palette,
+      title: 'Interior Decoration',
+      description: 'Furniture, home decor, lighting and design items',
+      color: 'bg-indigo-50 text-indigo-600'
     }
   ];
 
