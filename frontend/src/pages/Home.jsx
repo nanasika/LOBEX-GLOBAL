@@ -17,37 +17,37 @@ import {
 const Home = () => {
   const services = [
     {
-      icon: Building,
+      imageUrl: "https://images.unsplash.com/photo-1517011453931-c30f571a4fab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHhjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHN8ZW58MHx8fGJsdWV8MTc1NTM1NTMyNnww&ixlib=rb-4.1.0&q=85",
       title: 'Construction Materials',
       description: 'Quality building materials sourced directly from China',
       color: 'bg-orange-50 text-orange-600'
     },
     {
-      icon: Smartphone,
+      imageUrl: "https://images.unsplash.com/photo-1603732551681-2e91159b9dc2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxlbGVjdHJvbmljc3xlbnwwfHx8Ymx1ZXwxNzU1MzU1MzMxfDA&ixlib=rb-4.1.0&q=85",
       title: 'Electronics & Gadgets',
       description: 'Latest technology and electronic devices',
       color: 'bg-blue-50 text-blue-600'
     },
     {
-      icon: Shirt,
+      imageUrl: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxjbG90aGluZ3xlbnwwfHx8Ymx1ZXwxNzU1MzU1MzM1fDA&ixlib=rb-4.1.0&q=85",
       title: 'Clothing & Accessories',
       description: 'Fashion and apparel for every style and season',
       color: 'bg-purple-50 text-purple-600'
     },
     {
-      icon: Wrench,
+      imageUrl: "https://images.unsplash.com/photo-1606206886378-e49a19ad0933?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxtYWNoaW5lcnl8ZW58MHx8fGJsdWV8MTc1NTM1NTM2OXww&ixlib=rb-4.1.0&q=85",
       title: 'Machinery & Vehicle Parts',
       description: 'Industrial equipment and automotive components',
       color: 'bg-green-50 text-green-600'
     },
     {
-      icon: Scissors,
+      imageUrl: "https://images.unsplash.com/photo-1646376241249-f261e72c2029?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxzYWxvbiUyMHN1cHBsaWVzfGVufDB8fHxibHVlfDE3NTUzNTUzNzZ8MA&ixlib=rb-4.1.0&q=85",
       title: 'Salon & Beauty Supplies',
       description: 'Professional beauty and salon equipment',
       color: 'bg-pink-50 text-pink-600'
     },
     {
-      icon: Palette,
+      imageUrl: "https://images.unsplash.com/photo-1535056889777-5821f7c5b4ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxpbnRlcmlvciUyMGRlY29yYXRpb258ZW58MHx8fGJsdWV8MTc1NTM1NTM4MHww&ixlib=rb-4.1.0&q=85",
       title: 'Interior Decoration',
       description: 'Furniture, home decor, lighting and design items',
       color: 'bg-indigo-50 text-indigo-600'
