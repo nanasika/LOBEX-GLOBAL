@@ -11,13 +11,7 @@ import {
   Users, 
   Star,
   ArrowRight,
-  CheckCircle,
-  Building,
-  Smartphone,
-  Shirt,
-  Wrench,
-  Scissors,
-  Palette
+  CheckCircle
 } from 'lucide-react';
 
 const Home = () => {
