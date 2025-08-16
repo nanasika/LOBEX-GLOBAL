@@ -9,6 +9,7 @@ import {
   Shirt, 
   Wrench, 
   Scissors,
+  Home,
   ArrowRight,
   CheckCircle,
   Star,
