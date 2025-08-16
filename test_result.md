@@ -101,3 +101,48 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Add interior decoration service to LOBEX Global Logistics website"
+
+backend:
+  - task: "Add interior decoration service data"
+    implemented: true
+    working: "NA"
+    file: "mock.js (frontend data)"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        -working: "NA"
+        -agent: "main"
+        -comment: "Added interior decoration service to mock data with appropriate features, target market, and testimonial"
+
+frontend:
+  - task: "Add interior decoration service to UI"
+    implemented: true
+    working: "NA"
+    file: "pages/Services.jsx, pages/Home.jsx, mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        -working: "NA"
+        -agent: "main"
+        -comment: "Added Interior Decoration service with Palette icon, updated both Services and Home pages to display new service"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 0
+  run_ui: true
+
+test_plan:
+  current_focus:
+    - "Add interior decoration service to UI"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+    -agent: "main"
+    -message: "Added Interior Decoration as 6th service with Palette icon, features include style variety, quality materials, bulk discounts, and design consultation. Target market is Interior Designers. Service now appears on both Home and Services pages."
