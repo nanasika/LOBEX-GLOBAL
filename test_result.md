@@ -129,20 +129,20 @@ backend:
         -comment: "Comprehensive backend testing completed. All 5 API endpoints tested successfully: GET /api/ (root), POST /api/status (create), GET /api/status (retrieve), CORS configuration, and MongoDB connectivity. All tests passed with proper response formatting and data persistence."
 
 frontend:
-  - task: "Add interior decoration service to UI"
+  - task: "Replace service icons with real images"
     implemented: true
-    working: true
+    working: "NA"
     file: "pages/Services.jsx, pages/Home.jsx, mock.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
-        -working: "NA"
-        -agent: "main"
-        -comment: "Added Interior Decoration service with Palette icon, updated both Services and Home pages to display new service"
         -working: true
         -agent: "testing"
         -comment: "COMPREHENSIVE TESTING COMPLETED ✅ Interior Decoration service successfully implemented and working across all areas: 1) HOME PAGE: Service displays correctly with Palette icon, title 'Interior Decoration', description 'Furniture, home decor, lighting and design items', proper indigo color scheme. 2) SERVICES PAGE: Appears as 6th service with detailed description 'Furniture, home decor, lighting, and interior design items to transform any space', target market 'Interior Designers', all 4 features (Style variety, Quality materials, Bulk discounts, Design consultation) display correctly. 3) SERVICES TABLE: Interior Decoration appears in comparison table with correct target market and key benefits. 4) NAVIGATION: All links work properly between pages. 5) RESPONSIVE DESIGN: Works correctly on desktop, tablet, and mobile views. 6) REQUEST QUOTE: All quote buttons navigate to contact page correctly. 7) QUICK QUOTE FORM: Fixed dropdown to include Interior Decoration option. Minor fix applied: Added Interior Decoration to Quick Quote dropdown options. All core functionality working perfectly."
+        -working: "NA"
+        -agent: "main"
+        -comment: "Replaced all service icons with professional high-quality images from Unsplash. Updated mock.js to use imageUrl instead of icon field. Modified Services.jsx and Home.jsx to render images instead of lucide-react icons. Images include: Construction Materials (crane/building), Electronics (circuit boards), Clothing (professional garments), Machinery (industrial equipment), Salon Supplies (professional tools), Interior Decoration (design/decor items). All images are professionally curated and maintain consistent quality."
 
 metadata:
   created_by: "main_agent"
