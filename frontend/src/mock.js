@@ -57,7 +57,7 @@ export const mockData = {
       id: 6,
       title: "Interior Decoration",
       description: "Furniture, home decor, lighting, and interior design items to transform any space.",
-      icon: "Home",
+      icon: "Palette",
       features: ["Style variety", "Quality materials", "Bulk discounts", "Design consultation"],
       targetMarket: "Interior Designers"
     }
