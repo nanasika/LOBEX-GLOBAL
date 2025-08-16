@@ -17,7 +17,7 @@ import {
   Shirt,
   Wrench,
   Scissors,
-  Home
+  Palette
 } from 'lucide-react';
 
 const Home = () => {
