@@ -26,7 +26,7 @@ const Services = () => {
     Shirt: Shirt,
     Wrench: Wrench,
     Scissors: Scissors,
-    Home: Home
+    Palette: Palette
   };
 
   const processSteps = [
