@@ -14,15 +14,6 @@ import {
 import { mockData } from '../mock';
 
 const Services = () => {
-  const serviceIcons = {
-    Building: Building,
-    Smartphone: Smartphone,
-    Shirt: Shirt,
-    Wrench: Wrench,
-    Scissors: Scissors,
-    Palette: Palette
-  };
-
   const processSteps = [
     {
       icon: Package,
