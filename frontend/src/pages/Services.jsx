@@ -66,13 +66,16 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {mockData.services.map((service, index) => {
-              const IconComponent = serviceIcons[service.icon];
               return (
                 <Card key={service.id} className="group hover:shadow-xl transition-all duration-300 border-slate-100">
                   <CardContent className="p-8">
                     <div className="flex items-start space-x-6">
-                      <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                        <IconComponent className="h-8 w-8 text-blue-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-xl overflow-hidden flex-shrink-0 group-hover:scale-110 transition-transform">
+                        <img 
+                          src={service.imageUrl} 
+                          alt={service.title}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       
                       <div className="flex-1 space-y-4">
