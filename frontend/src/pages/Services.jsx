@@ -25,7 +25,8 @@ const Services = () => {
     Smartphone: Smartphone,
     Shirt: Shirt,
     Wrench: Wrench,
-    Scissors: Scissors
+    Scissors: Scissors,
+    Home: Home
   };
 
   const processSteps = [
