@@ -208,8 +208,12 @@ const Services = () => {
                   <tr key={service.id} className="hover:bg-slate-50 transition-colors">
                     <td className="px-6 py-4">
                       <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
-                          {React.createElement(serviceIcons[service.icon], { className: "h-4 w-4 text-blue-600" })}
+                        <div className="w-8 h-8 bg-slate-100 rounded-lg overflow-hidden">
+                          <img 
+                            src={service.imageUrl} 
+                            alt={service.title}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
                         <span className="font-medium text-slate-900">{service.title}</span>
                       </div>
