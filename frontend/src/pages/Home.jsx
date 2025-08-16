@@ -200,6 +200,7 @@ const Home = () => {
                     <option>Clothing & Accessories</option>
                     <option>Machinery & Vehicle Parts</option>
                     <option>Salon & Beauty Supplies</option>
+                    <option>Interior Decoration</option>
                   </select>
                   <textarea
                     placeholder="Describe your requirements..."
